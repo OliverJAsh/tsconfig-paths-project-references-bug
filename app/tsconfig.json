@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "../target-tsc/",
+    "rootDir": "..",
+    "baseUrl": "./",
+    "paths": {
+      "shared/*": ["../shared/*"]
+    }
+  },
+  "references": [
+    {
+      "path": "../shared/tsconfig.json"
+    }
+  ]
+}
