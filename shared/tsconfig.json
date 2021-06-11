@@ -3,5 +3,8 @@
     "composite": true,
     "outDir": "../target-tsc/",
     "rootDir": "..",
+    "paths": {
+      "helpers/*": ["./my-helpers/*"]
+    }
   }
 }
